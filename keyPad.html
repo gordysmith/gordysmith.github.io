@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <script src="app.js"></script>
+
+  <p id="phoneNumber" class="center"></p>
+  <table class="center">
+      <tr>
+          <td>
+            <input type="button" value="1" onclick="addNumber(this.value)">
+          </td>
+          <td>
+            <input type="button" value="2" onclick="addNumber(this.value)">
+          </td>
+          <td>
+            <input type="button" value="3" onclick="addNumber(this.value)">
+          </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" value="4" onclick="addNumber(this.value)">
+        </td>
+        <td>
+          <input type="button" value="5" onclick="addNumber(this.value)">
+        </td>
+        <td>
+          <input type="button" value="6" onclick="addNumber(this.value)">
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <input type="button" value="7" onclick="addNumber(this.value)">
+        </td>
+        <td>
+          <input type="button" value="8" onclick="addNumber(this.value)">
+        </td>
+        <td>
+          <input type="button" value="9" onclick="addNumber(this.value)">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value="*">
+        </td>
+        <td>
+            <input type="button" value="0" onclick="addNumber(this.value)">
+        </td>
+        <td>
+            <input type="button" value="#">
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+            <input type="button" value="?" onclick="makeCall()">
+        </td>
+        <td>
+            <input type="button" value="$" onclick="deleteDigit()">
+        </td>
+    </tr>
+  </table>
+</body>
+</html>
