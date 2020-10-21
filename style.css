@@ -7,35 +7,53 @@ p {
     margin-right: auto;
   }
 
-.screen {
-margin: 0 auto;
-width: 100%;
-height: 100%;
-background-color: #eee;
-border-radius: 5px;
-}
-
 .displayNumber {
     margin-top: 30%;
 }
 
-.btn {
+.button {
     border-radius: 100%;
-    border: none;
-    padding-bottom: 10px;
-    width: 50px;
-    height: 50px;
+    border: black;
+    margin: 5px 5px 5px 5px;
+    padding: auto;
+    width: 70px;
+    height: 70px;
     font-size: 24px;
-    background-color: #ccc
+    background-color: #ccc;
+    color: grey;
 }
 
-  
+.callButton {
+    border-radius: 100%;
+    border: black;
+    margin: 5px 5px 5px 5px;
+    padding: auto;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    background-color: lightgreen;
+}
+
+.backspaceButton{
+    border-radius: 100%;
+    border: none;
+    margin: 5px 5px 5px 5px;
+    padding: auto;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    background-color: transparent;
+}
 
 body {
-    /* width: 320px; */
     font: 12pt Helvetica, sans-serif;
 } 
 
 #emergencyCall{
     color: red;
+    padding-bottom: 20px;
+}
+
+#phoneNumber{
+    font-size: 30px;
 }
