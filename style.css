@@ -1,59 +1,86 @@
 p {
-    text-align: center;
+  text-align: center;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.displayNumber {
-    margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* .displayNumber {
+  margin-top: 30%;
+} */
+
+/* BUTTONS */
 
 .button {
-    border-radius: 100%;
-    border: black;
-    margin: 5px 5px 5px 5px;
-    padding: auto;
-    width: 70px;
-    height: 70px;
-    font-size: 24px;
-    background-color: #ccc;
-    color: grey;
+  background-color: #ddd;
+  border-radius: 100%;
+  border: black;
+  color: #111;
+  font-size: 2em;
+  font-weight: 300;
+  height: 2.2em;
+  margin: 0.2em 0.4em;
+  padding: auto;
+  width: 2.2em;
 }
+
+.button > .number {
+  /* position: absolute; */
+  line-height: 0.95;
+}
+
+.button > .letters {
+  padding-top: 0;
+  font-size: 0.25em;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+
+.letters.hidden {
+  opacity: 0;
+}
+
+.button > .asterisk {
+  font-size: 1.5em;
+  margin-top: 0.1em;
+}
+
+/* END BUTTONS */
 
 .callButton {
-    border-radius: 100%;
-    border: black;
-    margin: 5px 5px 5px 5px;
-    padding: auto;
-    width: 70px;
-    height: 70px;
-    font-size: 24px;
-    background-color: lightgreen;
+  border-radius: 100%;
+  border: black;
+  margin: 5px 5px 5px 5px;
+  padding: auto;
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  background-color: lightgreen;
 }
 
-.backspaceButton{
-    border-radius: 100%;
-    border: none;
-    margin: 5px 5px 5px 5px;
-    padding: auto;
-    width: 70px;
-    height: 70px;
-    font-size: 24px;
-    background-color: transparent;
+.backspaceButton {
+  border-radius: 100%;
+  border: none;
+  margin: 5px 5px 5px 5px;
+  padding: auto;
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  background-color: transparent;
 }
 
 body {
-    font: 12pt Helvetica, sans-serif;
-} 
-
-#emergencyCall{
-    color: red;
-    padding-bottom: 20px;
+  font: 12pt Helvetica, sans-serif;
 }
 
-#phoneNumber{
-    font-size: 30px;
+#emergencyCall {
+  color: red;
+  padding-bottom: 20px;
+}
+
+#phoneNumber {
+  font-size: 30px;
 }
