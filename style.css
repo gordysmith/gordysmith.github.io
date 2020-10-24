@@ -48,6 +48,7 @@ p {
 .button > .number {
   /* position: absolute; */
   line-height: 0.95;
+  margin: auto;
 }
 
 .button > .letters {
@@ -56,6 +57,7 @@ p {
   font-weight: 600;
   letter-spacing: 0.3em;
   text-align: center;
+  margin: auto;
 }
 
 .letters.hidden {
@@ -64,7 +66,8 @@ p {
 
 .button > .asterisk {
   font-size: 1.5em;
-  margin-top: 0.1em;
+  /* margin-top: 0.1em; */
+  margin: auto;
 }
 
 /* END BUTTONS */
