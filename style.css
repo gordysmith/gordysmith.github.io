@@ -2,6 +2,10 @@ p {
   text-align: center;
 }
 
+* {
+    touch-action: manipulation;
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
