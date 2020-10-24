@@ -49,6 +49,7 @@ p {
   /* position: absolute; */
   line-height: 0.95;
   margin: auto;
+  text-align: center;
 }
 
 .button > .letters {
@@ -68,6 +69,7 @@ p {
   font-size: 1.5em;
   /* margin-top: 0.1em; */
   margin: auto;
+  text-align: center;
 }
 
 /* END BUTTONS */
