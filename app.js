@@ -6,11 +6,17 @@ function makeCall(){
     if (numberSequence.join("") === correct911Sequence) {
         //will need to call some type of audio file here
         audio.play();
+        audio.addEventListener('ended', (event) => {
         alert("Fuck Yeah! You Fucking Dialed 911!! Your parents will live!!")
-    } else {
+        })
+       } else {
         alert("Fuck No!! You didn't dial 911!! Don't let your parents die!!")
     }
 };
+
+audio.addEventListener('ended', (event) => {
+    console.log('audio has been ended');
+  })
 
 function addNumber(val){
     numberSequence.push(val);

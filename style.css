@@ -30,6 +30,26 @@ p {
     margin-bottom: 15%;
 }
 
+.displayLockHomeScreen{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.displayTimeHomeScreen{
+    text-align: center;
+    height: 40%;
+}
+
+.timeHomeScreen{
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.displayDateHomeScreen{
+    margin-top: -8%;
+    margin-bottom: 100%;
+}
+
 /* BUTTONS */
 
 .button {
@@ -72,6 +92,11 @@ p {
   text-align: center;
 }
 
+.slideButton{
+    margin-top: 2%;
+    border-radius: 25%;
+}
+
 /* END BUTTONS */
 
 .callButton {
@@ -105,8 +130,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 0%, rgba(4,165,148,1) 12%, rgba(4,169,149,1) 62%, rgba(0,212,255,1) 100%); */
 }
 
 #emergencyCall{
@@ -117,3 +140,5 @@ body {
 #phoneNumber {
   font-size: 30px;
 }
+
+/**/
