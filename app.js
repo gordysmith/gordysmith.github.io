@@ -4,13 +4,12 @@ const correct911Sequence = "911";
 
 function makeCall(){
     if (numberSequence.join("") === correct911Sequence) {
-        //will need to call some type of audio file here
         audio.play();
         audio.addEventListener('ended', (event) => {
-        alert("Fuck Yeah! You Fucking Dialed 911!! Your parents will live!!")
+        $('#myModal').modal('show');
         })
        } else {
-        alert("Fuck No!! You didn't dial 911!! Don't let your parents die!!")
+        alert("Whoops, you didn't quite get it. Try again. Don't let your parents die!!")
     }
 };
 
