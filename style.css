@@ -145,6 +145,10 @@ body {
     margin-right: 150px;
 }
 
+#link{
+    color: black;
+}
+
 .div.desktop {
     background-image: url(landingPageImage/desktop2.jpg);
 }
