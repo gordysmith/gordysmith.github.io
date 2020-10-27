@@ -149,6 +149,10 @@ body {
     color: black;
 }
 
+#numbers{
+    text-align: center;
+}
+
 .div.desktop {
     background-image: url(landingPageImage/desktop2.jpg);
 }
