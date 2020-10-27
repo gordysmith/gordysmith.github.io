@@ -141,4 +141,107 @@ body {
   font-size: 30px;
 }
 
-/**/
+.div.desktop {
+    background-image: url(landingPageImage/desktop2.jpg);
+}
+
+
+#unlock{
+    position: absolute;
+    color: white;
+    font-size: 8px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 38px;
+}
+
+/*
+Media Queries
+--TODO: Determine if this will leave a blank page at 600px.
+*/
+
+/*Styling for mobile*/
+
+@media screen and (max-width: 600px) {
+    div.desktop {
+      display: none;
+    }
+    body{
+        background-image: url(landingPageImage/desktop2.jpg);
+        backdrop-filter: blur(10px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Position text in the middle of the page/image */
+      .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+
+
+  }
+
+  /*Styling for larger devices*/
+
+  @media screen and (min-width: 600px) {
+    div.mobile {
+      display: none;
+    }
+    body{
+        background-image: url(landingPageImage/desktop1.jpg);
+        backdrop-filter: blur(5px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Position text in the middle of the page/image */
+      .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+  }

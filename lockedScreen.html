@@ -31,12 +31,14 @@
 
     <div class="desktop">
         <div class="bg-text">
-            <h2>Welcome to KidsPractice911.com</h2>
-            <h1 style="font-size:50px">We're glad you're here!</h1>
-            <p>...but our site is much more useful from your mobile device.</p>
-        </div>   
+          <h2>Welcome to KidsPractice911.com</h2>
+          <h1 style="font-size:50px">We're glad you're here!</h1>
+          <p>...but our site is much more useful from your mobile device.</p>
+        </div>
+        
     </div>
 
+ 
     <div class="mobile">
     <div class="container">
         <div class="row">
@@ -61,49 +63,90 @@
                 </svg></div>
         </div>
     </div>
-    <div class="displayLockHomeScreen">
-        <span>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="black" xmlns="http://www.w3.org/2000/svg">
+    <div class="displayLock">
+        <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="black" xmlns="http://www.w3.org/2000/svg">
             <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
             <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
           </svg>
-          Swipe up to unlock
-        </span>
+    </div>
+    <div class="displayPassCode">
+    <p id="lockedHeader" class="center">Swipe up for face ID or Enter Passcode</p>
     </div>
     
-    <div>
-        <p class="timeHomeScreen">10:04</p>
-    </div>
-    <div>
-        <p class="displayDateHomeScreen">Saturday, October 24</p>
-    </div>
+    <div class="passCircles">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            </svg>
+        
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            </svg>
+        
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            </svg>
+        
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            </svg>
+    
+        </div>
     <table class="center">
         <tr>
             <td>
-                <button class="button">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tree" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M8 0a.5.5 0 0 1 .416.223l3 4.5A.5.5 0 0 1 11 5.5h-.098l2.022 3.235a.5.5 0 0 1-.424.765h-.191l1.638 3.276a.5.5 0 0 1-.447.724h-11a.5.5 0 0 1-.447-.724L3.69 9.5H3.5a.5.5 0 0 1-.424-.765L5.098 5.5H5a.5.5 0 0 1-.416-.777l3-4.5A.5.5 0 0 1 8 0zM5.934 4.5H6a.5.5 0 0 1 .424.765L4.402 8.5H4.5a.5.5 0 0 1 .447.724L3.31 12.5h9.382l-1.638-3.276A.5.5 0 0 1 11.5 8.5h.098L9.576 5.265A.5.5 0 0 1 10 4.5h.066L8 1.401 5.934 4.5z"/>
-                        <path d="M7 13.5h2V16H7v-2.5z"/>
-                    </svg>
-                </button>
+                <button class="button" onclick="addNumber('1')">1</button>
             </td>
-            <td></td>
             <td>
-                <button class="button">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-                        <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
-                      </svg>
-                </button>
+                <button class="button" onclick="addNumber('2')">2</button>
+            </td>
+            <td>
+                <button class="button" onclick="addNumber('3')">3</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" onclick="addNumber('4')">4</button>
+            </td>
+            <td>
+                <button class="button" onclick="addNumber('5')">5</button>
+            </td>
+            <td>
+                <button class="button" onclick="addNumber('6')">6</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button" onclick="addNumber('7')">7</button>
+            </td>
+            <td>
+                <button class="button" onclick="addNumber('8')">8</button>
+            </td>
+            <td>
+                <button class="button" onclick="addNumber('9')">9</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <button class="button" onclick="addNumber('0')">0</button>
+            </td>
+            <td>
             </td>
         </tr>
     </table>
-    <div class="center">
-    <a href='lockedScreen.html'>
-        <p id="unlock">Swipe up to unlock</p>
-    </a>
-    </div>  
-</div>    
+    <table class="center">
+        <tr>
+            <td><a href="keypad.html"><span>Emergency</span></a></td>
+            <td></td>
+            <td style="padding-left: 15px;"><a href="homeScreen.html">Cancel</a></td>
+        </tr>
+    </table>
+</div>
 </body>
 
 </html>
