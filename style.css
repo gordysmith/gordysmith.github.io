@@ -141,6 +141,10 @@ body {
   font-size: 30px;
 }
 
+#flashlightButton{
+    margin-right: 150px;
+}
+
 .div.desktop {
     background-image: url(landingPageImage/desktop2.jpg);
 }
@@ -149,7 +153,8 @@ body {
 #unlock{
     position: absolute;
     color: white;
-    font-size: 8px;
+    font-size: 20px;
+    padding-top: 3%;
     margin: auto;
     left: 0;
     right: 0;
