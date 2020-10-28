@@ -149,6 +149,10 @@ body {
     color: black;
 }
 
+#linkEmergency{
+    padding-right: 120px;
+}
+
 #numbers{
     text-align: center;
     padding-left:auto;
