@@ -176,6 +176,44 @@ body {
     bottom: 38px;
 }
 
+/*Styling for dropdown navigation*/
+.dropbtn {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    min-width: 80px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.4);
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgba(0,0,0, 0.4);}
+  
+
 /*
 Media Queries
 --TODO: Determine if this will leave a blank page at 600px.
